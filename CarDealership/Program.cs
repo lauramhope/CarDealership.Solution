@@ -1,7 +1,11 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
+using System;
+using System.Collections.Generic;
+using System.Threading.Tasks;
+using CarDealership.Models;
 
-namespace ProjectName
+namespace CarDealership
 {
   class Program
   {
@@ -13,7 +17,7 @@ namespace ProjectName
 
       WebApplication app = builder.Build();
 
-      app.UseDeveloperExceptionPage();
+      // app.UseDeveloperExceptionPage();
       app.UseHttpsRedirection();
 
       app.UseRouting();

@@ -1,9 +1,9 @@
-using ProjectName.Models;
+using CarDealership.Models;
 using Microsoft.AspNetCore.Mvc;
 
-namespace ClassName.Controllers
+namespace CarDealership.Controllers
 {
-  public class ClassNameController : Controller
+  public class HomeController : Controller
   {
     [HttpGet("/route")]
     public ActionResult MethodName()
